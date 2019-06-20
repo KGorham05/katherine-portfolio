@@ -34,10 +34,20 @@ p {
     background-color: #fff1c1 ;
     color: black;
     border: none;
-    margin-top: 40px
+    margin-right: 5px;
+
 }
 
+.icon {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
+.icon:hover {
+    height: 64px;
+    transition: 0.3s;
+}
 
 @media (min-width: 1025px) {
     .move-down {
@@ -45,4 +55,7 @@ p {
         top: 40px;
     }
 
+    #contact-btn, #portfolio-btn {
+        margin-top: 40px
+    }
 }
