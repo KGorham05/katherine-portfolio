@@ -1,7 +1,13 @@
-
+body {
+    background-color: #293462;
+}
 h1 {
     font-family: 'Righteous', cursive;
     text-transform: uppercase;
+}
+
+#name {
+ color: #a64942;
 }
 
 #headshot {
@@ -13,5 +19,17 @@ h1 {
 }
 
 p {
- font-family: 'Open Sans', sans-serif;   
+ font-family: 'Open Sans', sans-serif; 
 }
+
+#bio {
+    color: #fff1c1;
+}
+
+/* 
+Blue: #293462
+Rust: #a64942
+Orange: #fe5f55
+Tan: #fff1c1
+
+*/
